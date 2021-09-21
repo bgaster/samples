@@ -37,6 +37,8 @@ int main()
             {
                 printf("       %f\n", samples[i].values[j]);
             }
+
+            mark_sample(samples[i].timestamp);
         }
     }
     free(samples);
